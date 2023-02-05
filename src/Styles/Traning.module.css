@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.main{
+    height: 100vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9;
+    background-image: url('../img/traning.png');
+    background-size: 100% 100%;
+    /* border: 1px solid red; */
+    color: black;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+ 
+}
+
+
+
+.first_div_headline{
+    height: 18vmin;
+     width:70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.4vmin;
+    color: #1368DE;
+    /* border: 1px solid yellowgreen; */
+}
+
+
+.secondDiv{
+    height: 60vmin;
+    width: 60%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      /* border: 1px solid red; */
+
+}
+
+.secondDiv_text_container{
+    height: 59vmin;
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  /* border: 1px solid red; */
+
+}
+
+.secondDiv_text_container_headline{
+    height: 7vmin;
+    width: 100%;
+    font-size: 2vmin;
+    color: #1368DE;
+
+    display: flex;
+    align-items: flex-end;
+        /* border: 1px solid blue; */
+
+}
+
+.secondDiv_text_container_main_text{
+    height: 30vmin;
+    width: 100%;
+    padding-right: 15px;
+   
+    font-size: 1.9vmin;
+    display: flex;
+    align-items: center;
+  /* border: 1px solid green; */
+
+
+}
+
+.secondDiv_text_container_bottom_image{
+    height: 22vmin;
+    width: 90%;
+       /* border: 1px solid green; */
+
+}
+
+
+.secondDiv_image_container{
+    height: 59vmin;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.wave{
+
+    height:15vmin;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    bottom: -2%;
+    left: 0%;
+ 
+} 
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    .secondDiv {
+            height: 60vmin;
+            width: 60%;
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+    
+        }
+
+
+    .secondDiv_text_container_headline {
+            height: 7vmin;
+            width: 100%;
+            font-size: 1.85vmin;
+            color: #1368DE;
+    
+            display: flex;
+            align-items: flex-end;
+       
+
+        }
+    
+        .secondDiv_text_container_main_text {
+            height: 34vmin;
+            width: 100%;
+            padding-right: 15px;
+    
+            font-size: 1.7vmin;
+            display: flex;
+            align-items: center;
+          
+    
+        }
+
+
+
+                .secondDiv_text_container_bottom_image {
+                    height: 18vmin;
+                    width: 90%;
+                 
+
+                }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .first_div_headline {
+            height: 18vmin;
+            width: 70%;
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 2.4vmin;
+            color: #1368DE;
+        
+
+        }
+    
+    
+        .secondDiv {
+            height: 60vmin;
+            width: 80%;
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+   
+
+        }
+    
+        .secondDiv_text_container {
+            height: 59vmin;
+            width: 50%;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+  
+
+        }
+    
+        .secondDiv_text_container_headline {
+            height: 7vmin;
+            width: 100%;
+            font-size: 2.1vmin;
+            color: #1368DE;
+    
+            display: flex;
+            align-items: flex-end;
+    
+
+        }
+    
+        .secondDiv_text_container_main_text {
+            height: 30vmin;
+            width: 100%;
+            padding-right: 15px;
+    
+            font-size: 1.75vmin;
+            display: flex;
+            align-items: center;
+            
+    
+        }
+    
+        .secondDiv_text_container_bottom_image {
+            height: 22vmin;
+            width: 90%;
+         
+        }
+    
+    
+        .secondDiv_image_container {
+            height: 59vmin;
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+      
+
+        }
+
+ 
+
+ 
+  }
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    .main {
+            height: 150vmin;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            z-index: 9;
+            background-image: url('../img/traning.png');
+            background-size: 100% 100%;
+            /* border: 1px solid red; */
+            color: black;
+            font-family: 'Righteous', cursive;
+            cursor: pointer;
+    
+        }
+
+      .first_div_headline {
+          height: 18vmin;
+          width: 70%;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 2.4vmin;
+          color: #1368DE;
+   
+
+      }
+
+
+      .secondDiv {
+          height: 120vmin;
+          width: 85%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+         
+      }
+
+      .secondDiv_text_container {
+          height: 59vmin;
+          width: 70%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+   
+      }
+
+      .secondDiv_text_container_headline {
+          height: 7vmin;
+          width: 100%;
+          font-size: 2.25vmin;
+          color: #1368DE;
+
+          display: flex;
+          align-items: flex-end;
+    
+      }
+
+      .secondDiv_text_container_main_text {
+          height: 30vmin;
+          width: 100%;
+          padding-right: 15px;
+
+          font-size: 1.8vmin;
+          display: flex;
+          align-items: center;
+        
+
+      }
+
+      .secondDiv_text_container_bottom_image {
+          height: 22vmin;
+          width: 100%;
+        
+      }
+
+
+      .secondDiv_image_container {
+          height: 59vmin;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+    
+      }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+      .main {
+          height: 150vmin;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          z-index: 9;
+          background-image: url('../img/traning.png');
+          background-size: 100% 100%;
+          /* border: 1px solid red; */
+          color: black;
+          font-family: 'Righteous', cursive;
+          cursor: pointer;
+
+      }
+
+      .first_div_headline {
+          height: 18vmin;
+          width: 70%;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 2.7vmin;
+          color: #1368DE;
+ 
+      }
+
+
+      .secondDiv {
+          height: 120vmin;
+          width: 85%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+      
+      }
+
+      .secondDiv_text_container {
+          height: 59vmin;
+          width: 75%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+       
+      }
+
+      .secondDiv_text_container_headline {
+          height: 7vmin;
+          width: 100%;
+          font-size: 2.4vmin;
+          color: #1368DE;
+
+          display: flex;
+          align-items: flex-end;
+      
+      }
+
+      .secondDiv_text_container_main_text {
+          height: 30vmin;
+          width: 100%;
+          padding-right: 15px;
+
+          font-size: 2vmin;
+          display: flex;
+          align-items: center;
+      
+
+      }
+
+      .secondDiv_text_container_bottom_image {
+          height: 22vmin;
+          width: 100%;
+       
+      }
+
+
+      .secondDiv_image_container {
+          height: 59vmin;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+       
+      }
+
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+
+      .main {
+          height: 175vmin;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          z-index: 9;
+          background-image: url('../img/traning.png');
+          background-size: 100% 100%;
+          /* border: 1px solid red; */
+          color: black;
+          font-family: 'Righteous', cursive;
+          cursor: pointer;
+
+      }
+
+      .first_div_headline {
+          height: 18vmin;
+          width: 70%;
+
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 3.1vmin;
+          color: #1368DE;
+     
+      }
+
+
+      .secondDiv {
+          height: 135vmin;
+          width: 85%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+   
+      }
+
+      .secondDiv_text_container {
+          height: 75vmin;
+          width: 80%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+    
+      }
+
+      .secondDiv_text_container_headline {
+          height: 7vmin;
+          width: 100%;
+          font-size: 2.8vmin;
+          color: #1368DE;
+
+          display: flex;
+          align-items: flex-end;
+     
+      }
+
+      .secondDiv_text_container_main_text {
+          height: 45vmin;
+          width: 100%;
+          
+
+          font-size: 2.7vmin;
+          display: flex;
+          align-items: center;
+     
+
+      }
+
+      .secondDiv_text_container_bottom_image {
+          height: 22vmin;
+          width: 100%;
+   
+      }
+
+
+      .secondDiv_image_container {
+          height: 59vmin;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+     
+      }
+
+
+
+
+  }

@@ -1,0 +1,11 @@
+
+
+
+   Navbar color hex :   #0D5DCD
+  
+   text color:white
+
+   Main background color hex : #1368DE 
+
+ 
+   scroll libary : https://github.com/michalsnik/aos 

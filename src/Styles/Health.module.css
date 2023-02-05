@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.main{
+    height: 100vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9;
+    background-image: url('../img/health.png');
+    background-size: 100% 100%;
+    /* border: 1px solid red; */
+    color: black;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+ 
+}
+
+
+
+
+.first_div_headline{
+    height: 15vmin;
+     width:70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 2.4vmin;
+    color: #1368DE;
+      /* border: 1px solid yellowgreen; */
+
+
+}
+
+
+.secondDiv{
+    height: 60vmin;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      /* border: 1px solid red; */
+
+}
+
+
+
+.secondDiv_image_container{
+    height: 59vmin;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+       /* border: 1px solid red; */
+
+
+}
+.secondDiv_image_container_image1{
+    height: 48%;
+    width: 85%;
+    border-radius: 7px;
+
+ 
+}
+
+.secondDiv_image_container_image2{
+    height: 48%;
+    width: 85%;
+    border-radius: 7px;
+ 
+}
+
+.secondDiv_text_container{
+    height: 59vmin;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+        /* border: 1px solid red; */
+
+
+}
+
+.secondDiv_text_container_headline{
+    height: 25vmin;
+    width: 100%;
+    font-size: 2.2vmin;
+    color: #1368DE;
+    display: flex;
+    align-items: flex-end;
+        /* border: 1px solid red; */
+
+
+
+}
+
+.secondDiv_text_container_main_text{
+
+    height: 34vmin;
+    width: 100%;
+    font-size: 2vmin;
+
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+     /* border: 1px solid red;  */
+   
+
+
+}
+
+
+
+
+
+
+.fruits_image{
+    height: 22vmin;
+    width: 60%;
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+
+    .first_div_headline {
+            height: 15vmin;
+            width: 75%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            font-size: 2.5vmin;
+            color: #1368DE;
+       
+    
+        }
+
+
+                .secondDiv {
+                    height: 70vmin;
+                    width: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+            
+        
+                }
+
+
+                .secondDiv_image_container {
+                    height: 59vmin;
+                    width: 45%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+              
+        
+        
+                }
+        
+                .secondDiv_image_container_image1 {
+                    height: 48%;
+                    width: 85%;
+                    border-radius: 7px;
+        
+        
+                }
+        
+                .secondDiv_image_container_image2 {
+                    height: 48%;
+                    width: 85%;
+                    border-radius: 7px;
+        
+                }
+        
+                .secondDiv_text_container {
+                    height: 59vmin;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+              
+        
+        
+                }
+
+
+
+
+
+            
+        
+                .secondDiv_text_container_headline {
+                    height: 25vmin;
+                    width: 100%;
+                    font-size: 2vmin;
+                    color: #1368DE;
+                    display: flex;
+                    align-items: flex-end;
+                 
+        
+        
+        
+                }
+        
+                .secondDiv_text_container_main_text {
+        
+                    height: 34vmin;
+                    width: 100%;
+                    font-size:1.8vmin;
+        
+                    display: flex;
+                    align-items: center;
+                    padding-right: 15px;
+                  
+        
+        
+        
+                }
+            
+    
+    
+    
+    
+        .fruits_image {
+            height: 22vmin;
+            width: 70%;
+    
+        }
+
+
+
+ 
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+
+
+
+      .first_div_headline {
+          height: 15vmin;
+          width: 75%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-around;
+          font-size: 2.5vmin;
+          color: #1368DE;
+          
+
+      }
+
+
+      .secondDiv {
+          height: 60vmin;
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+    
+
+      }
+
+      .secondDiv_image_container {
+          height: 59vmin;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+
+      }
+
+      .secondDiv_image_container_image1 {
+          height: 45%;
+          width: 80%;
+          border-radius: 7px;
+
+
+      }
+
+      .secondDiv_image_container_image2 {
+          height: 45%;
+          width: 80%;
+
+      }
+
+      .secondDiv_text_container {
+          height: 59vmin;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+   
+
+      }
+
+      .secondDiv_text_container_headline {
+          height: 25vmin;
+          width: 100%;
+          font-size: 2.2vmin;
+          color: #1368DE;
+          display: flex;
+          align-items: flex-end;
+        
+      }
+
+      .secondDiv_text_container_main_text {
+
+          height: 34vmin;
+          width: 100%;
+          font-size:1.9vmin;
+
+          display: flex;
+          align-items: center;
+          padding-right: 15px;
+         
+
+
+
+      }
+
+
+
+
+
+
+      .fruits_image {
+          height: 22vmin;
+          width: 70%;
+
+      }
+
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    .main {
+            height: 157vmin;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            z-index: 9;
+            background-image: url('../img/health.png');
+            background-size: 100% 100%;
+            /* border: 1px solid red; */
+            color: black;
+            font-family: 'Righteous', cursive;
+            cursor: pointer;
+    
+        }
+
+
+
+      .first_div_headline {
+          height: 15vmin;
+          width: 80%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-around;
+          font-size: 2.7vmin;
+          color: #1368DE;
+         
+
+      }
+
+
+      .secondDiv {
+          height: 125vmin;
+          width: 85%;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+
+      }
+
+      .secondDiv_image_container {
+          height: 59vmin;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+     
+
+      }
+
+      .secondDiv_image_container_image1 {
+          height: 45%;
+          width: 85%;
+          border-radius: 7px;
+
+
+      }
+
+      .secondDiv_image_container_image2 {
+             height: 45%;
+            width: 85%;
+      }
+
+      .secondDiv_text_container {
+          height: 50vmin;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+   
+
+      }
+
+      .secondDiv_text_container_headline {
+          height: 15vmin;
+          width: 100%;
+          font-size: 2.4vmin;
+          color: #1368DE;
+          display: flex;
+          align-items: flex-end;
+
+      }
+
+      .secondDiv_text_container_main_text {
+
+          height: 34vmin;
+          width: 100%;
+          font-size: 2.1vmin;
+
+          display: flex;
+          align-items: center;
+          padding-right: 15px;
+
+
+
+
+      }
+
+
+
+
+
+
+      .fruits_image {
+          height: 22vmin;
+          width: 75%;
+
+      }
+
+
+
+
+  }
+
+
+
+        @media only screen and (max-width: 500px) {
+
+            .main {
+                    height: 157vmin;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    z-index: 9;
+                    background-image: url('../img/health.png');
+                    background-size: 100% 100%;
+                    /* border: 1px solid red; */
+                    color: black;
+                    font-family: 'Righteous', cursive;
+                    cursor: pointer;
+            
+                }
+    
+    
+           
+    
+            .first_div_headline {
+                height: 15vmin;
+                width: 80%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-around;
+                font-size: 3.1vmin;
+                color: #1368DE;
+            
+    
+            }
+    
+    
+            .secondDiv {
+                height: 115vmin;
+                width: 85%;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+              
+            }
+    
+            .secondDiv_image_container {
+                height: 59vmin;
+                width: 73%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-around;
+             
+            }
+    
+            .secondDiv_image_container_image1 {
+                height: 45%;
+                width: 85%;
+                border-radius: 7px;
+    
+    
+            }
+    
+            .secondDiv_image_container_image2 {
+                height: 45%;
+                width: 85%;
+            }
+    
+            .secondDiv_text_container {
+                height: 50vmin;
+                width: 73%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+               
+            }
+    
+            .secondDiv_text_container_headline {
+                height: 15vmin;
+                width: 100%;
+                font-size: 2.7vmin;
+                color: #1368DE;
+                display: flex;
+                align-items: flex-end;
+    
+            }
+    
+            .secondDiv_text_container_main_text {
+    
+                height: 34vmin;
+                width: 100%;
+                font-size: 2.6vmin;
+    
+                display: flex;
+                align-items: center;
+                padding-right: 15px;
+    
+    
+    
+    
+            }
+    
+    
+    
+    
+    
+    
+            .fruits_image {
+                height: 22vmin;
+                width: 75%;
+    
+            }
+    
+    
+    
+    
+        }

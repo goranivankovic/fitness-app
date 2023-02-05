@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.main{
+    height: 100vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9;
+    background-color: #1368DE;
+    color: white;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+        /* border: 1px solid red; */
+ 
+}
+
+
+.firstDiv_headline{
+    height: 20vmin;
+    width: 80%;
+    font-size: 2.3vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+
+}
+
+.secondDiv{
+    height: 60vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+   
+
+}
+
+.secondDiv_left_div{
+
+    height: 59vmin;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+        /* border: 1px solid red; */
+     
+
+}
+.secondDiv_left_div_items{
+    height: 9vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.8vmin;
+    padding: 5px;
+
+   
+}
+
+.check{
+    font-size: 2.2vmin;
+    margin-right: 12px;
+  
+}
+
+
+.secondDiv_right_div{
+    
+    height: 59vmin;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+
+
+
+}
+
+.secondDiv_right_div_button{
+    padding: 6px;
+
+    width: 24vmin;
+    height: 8.5vmin;
+    background-color: transparent;
+    border-radius:10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 2vmin;
+    border:2px solid white;
+   
+
+}
+
+.secondDiv_right_div_button:hover{
+    transition: 750ms;
+    color: #1368DE;
+    background-color: white;
+    border: 0px;
+}
+
+
+.thredDiv{
+    height: 20vmin;
+    width: 70%;
+    font-size:1.85vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+
+
+
+}
+.thredDiv_headline{
+    font-size: 2.1vmin;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .secondDiv {
+            height: 60vmin;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+        }
+   
+  
+  }
+
+
+
+  @media only screen and (max-width: 992px) {
+
+      .secondDiv {
+          height: 60vmin;
+          width:70%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+      }
+
+
+  }
+
+
+
+
+
+
+  @media only screen and (max-width:768px) {
+
+    
+
+
+          .firstDiv_headline {
+              height: 20vmin;
+              width: 80%;
+              font-size: 2.4vmin;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+         
+
+    
+          }
+    
+          .secondDiv {
+              height: 60vmin;
+              width: 80%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+      
+
+          }
+    
+          .secondDiv_left_div {
+    
+              height: 59vmin;
+              width: 60%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+          
+    
+          }
+    
+          .secondDiv_left_div_items {
+              height: 9vmin;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              font-size: 2vmin;
+              padding: 5px;
+    
+              
+          }
+    
+          .check {
+              font-size: 2.4vmin;
+              margin-right: 12px;
+    
+          }
+    
+    
+          .secondDiv_right_div {
+    
+              height: 59vmin;
+              width: 40%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-around;
+           
+    
+    
+    
+          }
+    
+          .secondDiv_right_div_button {
+              padding: 6px;
+    
+              width: 20vmin;
+              height: 8.5vmin;
+              background-color: transparent;
+              border-radius: 10px;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              color: white;
+              font-size:1.9vmin;
+
+
+          }
+    
+         
+    
+          .thredDiv {
+              height: 20vmin;
+              width: 80%;
+              font-size: 1.85vmin;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-around;
+              text-align: center;
+    
+            
+          }
+    
+          .thredDiv_headline {
+              font-size: 2.1vmin;
+          }
+
+
+
+
+
+  }
+
+
+
+
+  @media only screen and (max-width:600px) {
+
+
+    .main {
+            height: 120vmin;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            z-index: 9;
+            background-color: #1368DE;
+            color: white;
+            cursor: pointer;
+            font-family: 'Righteous', cursive;
+            /* border: 1px solid red; */
+    
+        }
+
+
+
+
+      .firstDiv_headline {
+          height: 20vmin;
+          width: 85%;
+          font-size: 2.6vmin;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+         
+
+      }
+
+      .secondDiv {
+          height: 75vmin;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+    
+
+      }
+
+      .secondDiv_left_div {
+
+          height: 59vmin;
+          width: 85%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+        
+
+      }
+
+      .secondDiv_left_div_items {
+          height: 9vmin;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          font-size: 2.2vmin;
+          padding: 5px;
+
+   
+      }
+
+      .check {
+          font-size: 2.6vmin;
+          margin-right: 12px;
+
+      }
+
+
+      .secondDiv_right_div {
+
+          height: 15vmin;
+          width: 85%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+    
+
+
+
+      }
+
+      .secondDiv_right_div_button {
+          padding: 6px;
+
+          width: 20vmin;
+          height: 8.5vmin;
+          background-color: transparent;
+          border-radius: 10px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          color: white;
+          font-size: 2vmin;
+       
+
+      }
+
+
+
+      .thredDiv {
+          height: 20vmin;
+          width: 80%;
+          font-size: 2.1vmin;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          text-align: center;
+
+          
+      }
+
+      .thredDiv_headline {
+          font-size: 2.4vmin;
+      }
+
+
+
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width:500px) {
+
+
+      .main {
+          height: 120vmin;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          z-index: 9;
+          background-color: #1368DE;
+          color: white;
+          cursor: pointer;
+          font-family: 'Righteous', cursive;
+          /* border: 1px solid red; */
+
+      }
+
+
+
+
+      .firstDiv_headline {
+          height: 20vmin;
+          width: 85%;
+          font-size: 3.1vmin;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+  
+
+
+      }
+
+      .secondDiv {
+          height: 75vmin;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+      
+
+      }
+
+      .secondDiv_left_div {
+
+          height: 59vmin;
+          width: 85%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+        
+
+
+      }
+
+      .secondDiv_left_div_items {
+          height: 9vmin;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          font-size: 2.8vmin;
+          padding: 5px;
+
+         
+
+      }
+
+      .check {
+          font-size: 3.2vmin;
+          margin-right: 12px;
+
+      }
+
+
+      .secondDiv_right_div {
+
+          height: 15vmin;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+        
+
+
+
+      }
+
+      .secondDiv_right_div_button {
+          padding: 6px;
+
+          width: 24vmin;
+          height:10vmin;
+          background-color: transparent;
+          border-radius: 10px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          color: white;
+          font-size: 2.6vmin;
+         
+      }
+
+
+
+      .thredDiv {
+          height: 20vmin;
+          width: 80%;
+          font-size: 2.65vmin;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          text-align: center;
+
+         
+      }
+
+      .thredDiv_headline {
+          font-size: 2.9vmin;
+      }
+
+
+
+
+
+  }
+
